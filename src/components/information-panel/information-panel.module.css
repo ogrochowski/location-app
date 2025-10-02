@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    color: #ecf39e;
+    height: 50px;
+}
+
+.content {
+    color: #ecf39e;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

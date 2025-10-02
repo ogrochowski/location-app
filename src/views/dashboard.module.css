@@ -1,0 +1,57 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: 300px 700px auto;
+    grid-template-rows: 300px 100px 300px;
+    grid-template-areas:
+        "searches userMap userInfo"
+        "searches searchBox searchBox"
+        "searches lastMap lastInfo";
+    gap: 40px;
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.searches {
+    background-color: #31572c;
+    grid-area: searches;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.userMap {
+    background-color: #31572c;
+    grid-area: userMap;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.userInfo {
+    background-color: #31572c;
+    grid-area: userInfo;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.searchBox {
+    background-color: #31572c;
+    grid-area: searchBox;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.lastMap {
+    background-color: #31572c;
+    grid-area: lastMap;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.lastInfo {
+    background-color: #31572c;
+    grid-area: lastInfo;
+    border: 1px solid #000;
+    padding: 10px;
+}

@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.title {
+    font-size: 30px;
+    color: #ecf39e;
+    height: 50px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+    overflow-y: auto
+}
+
+.item {
+    font-size: 24px;
+    color: #ecf39e;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+        background-color: #4f772d;
+    }
+}
